@@ -1,5 +1,5 @@
 const Sequelize = require('sequelize');
-const database = require('db');
+const database = require('./db');
 
 const Produto = database.define('produto', {
     id:{
@@ -14,5 +14,8 @@ const Produto = database.define('produto', {
     },
     preco:{
         type: Sequelize.DOUBLE
-    }
+    },
+    descricao: Sequelize.STRING
 })
+
+module.exports = Produto;
