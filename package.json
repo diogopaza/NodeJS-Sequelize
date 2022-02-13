@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-sequelize",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diogopaza/NodeJS-Sequelize.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diogopaza/NodeJS-Sequelize/issues"
+  },
+  "homepage": "https://github.com/diogopaza/NodeJS-Sequelize#readme",
+  "dependencies": {
+    "sequelize": "^6.16.1",
+    "sqlite3": "^5.0.2"
+  }
+}
